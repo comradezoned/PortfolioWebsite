@@ -1,4 +1,4 @@
-import project1 from '../assets/project1.jpg';
+import project1 from 'url:../assets/project1.jpg';
 
 const PROJECTS = [
     {

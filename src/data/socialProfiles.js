@@ -1,6 +1,6 @@
-import emailIco from '../assets/free-email-icon-md.png';
-import githubIco from '../assets/GitHub-Mark-120px-plus.png';
-import linkedinIco from '../assets/LI-In-Bug.png';
+import emailIco from 'url:../assets/free-email-icon-md.png';
+import githubIco from 'url:../assets/GitHub-Mark-120px-plus.png';
+import linkedinIco from 'url:../assets/LI-In-Bug.png';
 
 const SOCIAL_PROFILES = [
     {
@@ -10,13 +10,13 @@ const SOCIAL_PROFILES = [
         image: githubIco
     },
     {
-        id: 1,
+        id: 2,
         title: 'LinkedIn',
         link: 'https://www.linkedin.com/in/thomas-dolash/',
         image: linkedinIco
     },
     {
-        id: 1,
+        id: 3,
         title: 'E-Mail',
         link: 'mailto:Thomas_Dolash@StallSeven.net',
         image: emailIco

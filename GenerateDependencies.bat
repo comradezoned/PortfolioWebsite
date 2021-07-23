@@ -1,0 +1,1 @@
+npm i parcel react react-dom live-server--save

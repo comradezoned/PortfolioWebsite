@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
-import PROJECTS from './data/projects';
+import PROJECTS from '../data/projects';
 import Projects from './Projects';
-import SOCIAL_PROFILES from './data/socialProfiles';
+import SOCIAL_PROFILES from '../data/socialProfiles';
 import SocialProfiles from './SocialProfiles';
-import profilePicture from './assets/profilePicture.jpg';
+import profilePicture from 'url:../assets/profilePicture.jpg';
+import Title from './Title';
+import Requests from './Request';
 /*
 class RegularClass{}
 class ComponentClass extends Component {}
@@ -37,7 +39,7 @@ class App extends Component {
             <div>
                 <img src={profilePicture} alt='Profile Picture' className='profilePicture'/>
                 <h1>Thomas Dolash</h1>
-                <p>Software, mechanical and electrical engineering enthusiast.</p>
+                <Title />
                 {
                     this.state.displayBiography ? (
                         <div>
@@ -55,6 +57,7 @@ class App extends Component {
                 <Projects/>
                 <hr/>
                 <SocialProfiles/>
+                <Requests/>
             </div>
         )
     }
